@@ -1,0 +1,1956 @@
+{
+    "watchList": [
+        {
+            "address": "80000000",
+            "baseIndex": 0,
+            "label": "Memory Start",
+            "length": 6,
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "805C4F98",
+            "baseIndex": 0,
+            "label": "Room Number",
+            "pointerOffsets": [
+                "2150"
+            ],
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "805C7D80",
+            "baseIndex": 0,
+            "label": "IGT",
+            "pointerOffsets": [
+                "38"
+            ],
+            "typeIndex": 4,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "809934CC",
+                    "baseIndex": 0,
+                    "label": "Health",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Jump State",
+                    "pointerOffsets": [
+                        "2184",
+                        "29C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Space Jump Timer",
+                    "pointerOffsets": [
+                        "2184",
+                        "2C8"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "xy displacement",
+                    "pointerOffsets": [
+                        "2184",
+                        "2934"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "z vel",
+                    "pointerOffsets": [
+                        "2184",
+                        "180"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80993504",
+                    "baseIndex": 0,
+                    "label": "Charge Timer",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Boost Cooldown",
+                    "pointerOffsets": [
+                        "2184",
+                        "2AC4",
+                        "2FFC"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Boost Charge",
+                    "pointerOffsets": [
+                        "2184",
+                        "2AC4",
+                        "FD0"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Screw Attack Count",
+                    "pointerOffsets": [
+                        "2184",
+                        "2AC4",
+                        "34AC"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "TAS Hud"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "809934CC",
+                    "baseIndex": 0,
+                    "label": "Health",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Jump State",
+                    "pointerOffsets": [
+                        "2184",
+                        "29C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Space Jump Timer",
+                    "pointerOffsets": [
+                        "2184",
+                        "2C8"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "805C4F98",
+                                    "baseIndex": 0,
+                                    "label": "x vel",
+                                    "pointerOffsets": [
+                                        "2184",
+                                        "178"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805C4F98",
+                                    "baseIndex": 0,
+                                    "label": "y vel",
+                                    "pointerOffsets": [
+                                        "2184",
+                                        "17C"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805C4F98",
+                                    "baseIndex": 0,
+                                    "label": "z vel",
+                                    "pointerOffsets": [
+                                        "2184",
+                                        "180"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "velocity"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "805C4F98",
+                                    "baseIndex": 0,
+                                    "label": "z rot",
+                                    "pointerOffsets": [
+                                        "2184",
+                                        "18C"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805C4F98",
+                                    "baseIndex": 0,
+                                    "label": "x rot",
+                                    "pointerOffsets": [
+                                        "2184",
+                                        "184"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805C4F98",
+                                    "baseIndex": 0,
+                                    "label": "y rot",
+                                    "pointerOffsets": [
+                                        "2184",
+                                        "188"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "rotation"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "805C4F98",
+                                    "baseIndex": 0,
+                                    "label": "displacement",
+                                    "pointerOffsets": [
+                                        "2184",
+                                        "2930"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "805C4F98",
+                                    "baseIndex": 0,
+                                    "label": "xy displacement",
+                                    "pointerOffsets": [
+                                        "2184",
+                                        "2934"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "displacement"
+                        }
+                    ],
+                    "groupName": "Speed"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "805C4F98",
+                            "baseIndex": 0,
+                            "label": "x pos",
+                            "pointerOffsets": [
+                                "2184",
+                                "6C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805C4F98",
+                            "baseIndex": 0,
+                            "label": "y pos",
+                            "pointerOffsets": [
+                                "2184",
+                                "70"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "805C4F98",
+                            "baseIndex": 0,
+                            "label": "z pos",
+                            "pointerOffsets": [
+                                "2184",
+                                "74"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Position"
+                }
+            ],
+            "groupName": "Player"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80993504",
+                    "baseIndex": 0,
+                    "label": "Charge Timer",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Gun"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Boost Charge",
+                    "pointerOffsets": [
+                        "2184",
+                        "2AC4",
+                        "FD0"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Boost Cooldown",
+                    "pointerOffsets": [
+                        "2184",
+                        "2AC4",
+                        "2FFC"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Bomb Count",
+                    "pointerOffsets": [
+                        "2184",
+                        "3ADC",
+                        "44"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Screw Attack Count",
+                    "pointerOffsets": [
+                        "2184",
+                        "2AC4",
+                        "34AC"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Morph "
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "809934B4",
+                    "baseIndex": 1,
+                    "label": "Object Start",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "809934CC",
+                    "baseIndex": 0,
+                    "label": "Health",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80993504",
+                    "baseIndex": 0,
+                    "label": "Charge Beam Timer",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80993604",
+                            "baseIndex": 0,
+                            "label": "energy tank",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80993608",
+                            "baseIndex": 0,
+                            "label": "energy tank *",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Energy Tanks"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993598",
+                                    "baseIndex": 0,
+                                    "label": "combat visor ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099359C",
+                                    "baseIndex": 0,
+                                    "label": "combat visor *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Combat Visor"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809935A8",
+                                    "baseIndex": 0,
+                                    "label": "scan visor ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809935A4",
+                                    "baseIndex": 0,
+                                    "label": "scan visor *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Scan Visor"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809935B4",
+                                    "baseIndex": 0,
+                                    "label": "command visor *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809935B0",
+                                    "baseIndex": 0,
+                                    "label": "command visor ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Command Visor"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809935C0",
+                                    "baseIndex": 0,
+                                    "label": "x ray visor *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809935BC",
+                                    "baseIndex": 0,
+                                    "label": "x ray visor ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "X ray Visor"
+                        }
+                    ],
+                    "groupName": "Visors"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993538",
+                                    "baseIndex": 0,
+                                    "label": "charge beam ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099353C",
+                                    "baseIndex": 0,
+                                    "label": "charge beam *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Charge Beam"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993514",
+                                    "baseIndex": 0,
+                                    "label": "power beam",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993518",
+                                    "baseIndex": 0,
+                                    "label": "power beam *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Power Beam"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993524",
+                                    "baseIndex": 0,
+                                    "label": "plasma beam",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993520",
+                                    "baseIndex": 0,
+                                    "label": "welder",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Plasma Beam"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8099352C",
+                                    "baseIndex": 0,
+                                    "label": "nova beam",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993530",
+                                    "baseIndex": 0,
+                                    "label": "shoot through phazon",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Nova Beam"
+                        }
+                    ],
+                    "groupName": "Beams"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993544",
+                                    "baseIndex": 0,
+                                    "label": "missile current",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993548",
+                                    "baseIndex": 0,
+                                    "label": "missile max",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Missiles"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993554",
+                                    "baseIndex": 0,
+                                    "label": "ice missile *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993550",
+                                    "baseIndex": 0,
+                                    "label": "ice missile",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Ice Missiles"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993560",
+                                    "baseIndex": 0,
+                                    "label": "seeker missile *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099355C",
+                                    "baseIndex": 0,
+                                    "label": "seeker missile",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Seeker Missiles"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993730",
+                                    "baseIndex": 0,
+                                    "label": "ship missile inventory",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993734",
+                                    "baseIndex": 0,
+                                    "label": "ship missile capacity",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Ship Missile"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809936D0",
+                                    "baseIndex": 0,
+                                    "label": "hypermissile ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809936D4",
+                                    "baseIndex": 0,
+                                    "label": "hypermissile *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Hyper Missile"
+                        }
+                    ],
+                    "groupName": "Missiles"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8099356C",
+                                    "baseIndex": 0,
+                                    "label": "grapple lasso *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993568",
+                                    "baseIndex": 0,
+                                    "label": "grapple lasso ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Grapple Lasso"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993574",
+                                    "baseIndex": 0,
+                                    "label": "grapple swing ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993578",
+                                    "baseIndex": 0,
+                                    "label": "grapple swing *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Grapple Swing"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993580",
+                                    "baseIndex": 0,
+                                    "label": "grapple voltage ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993584",
+                                    "baseIndex": 0,
+                                    "label": "grapple voltage *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Grapple Voltage"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993724",
+                                    "baseIndex": 0,
+                                    "label": "ship grapple ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993728",
+                                    "baseIndex": 0,
+                                    "label": "ship grapple *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Ship Grapple"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809936E8",
+                                    "baseIndex": 0,
+                                    "label": "hyper grapple ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809936EC",
+                                    "baseIndex": 0,
+                                    "label": "hyper grapple *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Hyper Grapple"
+                        }
+                    ],
+                    "groupName": "Grapple"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "809935CC",
+                            "baseIndex": 0,
+                            "label": "space jump boots ",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "809935C8",
+                            "baseIndex": 0,
+                            "label": "space jump boots *",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Space Jump Boots"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "809935D4",
+                            "baseIndex": 0,
+                            "label": "screw attack ",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "809935D8",
+                            "baseIndex": 0,
+                            "label": "screw attack *",
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Screw Attack"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809935E0",
+                                    "baseIndex": 0,
+                                    "label": "Suit *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809935E4",
+                                    "baseIndex": 0,
+                                    "label": "Suit ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Suit Visuals "
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809935EC",
+                                    "baseIndex": 0,
+                                    "label": "set suit visual to 2 - 4",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809935F0",
+                                    "baseIndex": 0,
+                                    "label": "PED suit ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "PED Suit"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809935F8",
+                                    "baseIndex": 0,
+                                    "label": "set suit visual to 5 or 6",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809935FC",
+                                    "baseIndex": 0,
+                                    "label": "Hazard Shield",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Hazard Shield"
+                        }
+                    ],
+                    "groupName": "Suit"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993694",
+                                    "baseIndex": 0,
+                                    "label": "morph ball *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993698",
+                                    "baseIndex": 0,
+                                    "label": "morph ball ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Morph Ball"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993590",
+                                    "baseIndex": 0,
+                                    "label": "morph bombs *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099358C",
+                                    "baseIndex": 0,
+                                    "label": "morph bombs ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Morph Bombs"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809936A0",
+                                    "baseIndex": 0,
+                                    "label": "boost ball *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809936A4",
+                                    "baseIndex": 0,
+                                    "label": "boost ball ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Boost Ball"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809936AC",
+                                    "baseIndex": 0,
+                                    "label": "spider ball ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809936B0",
+                                    "baseIndex": 0,
+                                    "label": "spider ball *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Spider Ball"
+                        }
+                    ],
+                    "groupName": "Morph"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809936F4",
+                                    "baseIndex": 0,
+                                    "label": "hypermode corruption ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809936F8",
+                                    "baseIndex": 0,
+                                    "label": "hypermode corruption capacity",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Corrupt mode ?"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809936B8",
+                                    "baseIndex": 0,
+                                    "label": "hypermode ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809936BC",
+                                    "baseIndex": 0,
+                                    "label": "hypermod *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Hypermode"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809936C4",
+                                    "baseIndex": 0,
+                                    "label": "hyperbeam ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809936C8",
+                                    "baseIndex": 0,
+                                    "label": "hyperbeam *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "HyperBeam"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809936D0",
+                                    "baseIndex": 0,
+                                    "label": "hypermissile ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809936D4",
+                                    "baseIndex": 0,
+                                    "label": "hypermissile *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Hyper Missile"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809936DC",
+                                    "baseIndex": 0,
+                                    "label": "hyperball ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809936E0",
+                                    "baseIndex": 0,
+                                    "label": "hyperball *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Hyper Ball"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809936E8",
+                                    "baseIndex": 0,
+                                    "label": "hyper grapple ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809936EC",
+                                    "baseIndex": 0,
+                                    "label": "hyper grapple *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Hyper Grapple"
+                        }
+                    ],
+                    "groupName": "Hypermode"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993724",
+                                    "baseIndex": 0,
+                                    "label": "ship grapple ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993728",
+                                    "baseIndex": 0,
+                                    "label": "ship grapple *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Ship Grapple"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993730",
+                                    "baseIndex": 0,
+                                    "label": "ship missile inventory",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993734",
+                                    "baseIndex": 0,
+                                    "label": "ship missile capacity",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Ship Missile"
+                        }
+                    ],
+                    "groupName": "Ship"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8099361C",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993620",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cells Acquired"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993628",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 1 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099362C",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 1 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 1 Acquired"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993634",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 2 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993638",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 2 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 2 Acquired"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993640",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 3 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993644",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 3 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 3 Acquired"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8099364C",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 4 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993650",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 4 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 4 Acquired"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993658",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 5 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099365C",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 5 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 5 Acquired"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993664",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 6 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993568",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 6 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 6 Acquired"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993670",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 7 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993674",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 7 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 7 Acquired"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8099367C",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 8 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993680",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 8 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 8 Acquired"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993688",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 9 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099368C",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 9 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 9 Acquired"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993784",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cells *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993788",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cells ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cells Used"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993790",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 1 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993794",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 1 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 1 Used"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8099379C",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 2 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809937A0",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 2 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 2 Used"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809937A8",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 3 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809937AC",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 3 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 3 Used"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809937B4",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 4 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809937B8",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 4 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 4 Used"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809937C0",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 5 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809937C4",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 5 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 5 Used"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809937CC",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 6 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809937D0",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 6 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 6 Used"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809937D8",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 7 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809937DC",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 7 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 7 Used"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809937E4",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 8 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809937E8",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 8 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 8 Used"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809937F0",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 9 *",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "809937F4",
+                                    "baseIndex": 0,
+                                    "label": "Energy Cell 9 ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Energy Cell 9 Used"
+                        }
+                    ],
+                    "groupName": "Energy Cells"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993748",
+                                    "baseIndex": 0,
+                                    "label": "yes (1) or no (0)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099374C",
+                                    "baseIndex": 0,
+                                    "label": "hypermode level",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Currently in Hypermode"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993700",
+                                    "baseIndex": 0,
+                                    "label": "hypermode gun inventory",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993704",
+                                    "baseIndex": 0,
+                                    "label": "hypermode gun capacity",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Hypermod Gun (be careful)"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993614",
+                                    "baseIndex": 0,
+                                    "label": "items towards % + 100",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993610",
+                                    "baseIndex": 0,
+                                    "label": "items acquired ",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Items Acquired"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993838",
+                                    "baseIndex": 0,
+                                    "label": "Pirates alerted inventory",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099383C",
+                                    "baseIndex": 0,
+                                    "label": "Pirates alerted capacity",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Pirates Alerted Info"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993754",
+                                    "baseIndex": 0,
+                                    "label": "nothing",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993758",
+                                    "baseIndex": 0,
+                                    "label": "hasnt died",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "SS check"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993760",
+                                    "baseIndex": 0,
+                                    "label": "nothing",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993764",
+                                    "baseIndex": 0,
+                                    "label": "hasnt died",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "SS check"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "809937FC",
+                                    "baseIndex": 0,
+                                    "label": "enemies killed inv",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993800",
+                                    "baseIndex": 0,
+                                    "label": "enemies killed cap",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Enemies Killed"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993808",
+                                    "baseIndex": 0,
+                                    "label": "Shots inv",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099380C",
+                                    "baseIndex": 0,
+                                    "label": "Shots cap",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Number of Shots"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993814",
+                                    "baseIndex": 0,
+                                    "label": "Damage Taken inv",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993818",
+                                    "baseIndex": 0,
+                                    "label": "Damage Taken cap",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Total Damage Taken"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993820",
+                                    "baseIndex": 0,
+                                    "label": "times saved",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993824",
+                                    "baseIndex": 0,
+                                    "label": "times used save station",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Save Station Info"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8099382C",
+                                    "baseIndex": 0,
+                                    "label": "Hypermode Count",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993830",
+                                    "baseIndex": 0,
+                                    "label": "Hypermode Count",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Hypermode Info"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993844",
+                                    "baseIndex": 0,
+                                    "label": "shooting minigame gfs",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993848",
+                                    "baseIndex": 0,
+                                    "label": "shooting (fake)",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "shooting minigame"
+                        }
+                    ],
+                    "groupName": "Misc"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8099370C",
+                                    "baseIndex": 0,
+                                    "label": "43 inventory",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993710",
+                                    "baseIndex": 0,
+                                    "label": "43 capacity",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Unknown item #43"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993718",
+                                    "baseIndex": 0,
+                                    "label": "44 inventory",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099371C",
+                                    "baseIndex": 0,
+                                    "label": "44 capacity",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Unknown item #44"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8099373C",
+                                    "baseIndex": 0,
+                                    "label": "47 inventory",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993740",
+                                    "baseIndex": 0,
+                                    "label": "47 capacity",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Unknown item #47"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8099376C",
+                                    "baseIndex": 0,
+                                    "label": "51 inventory",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "80993770",
+                                    "baseIndex": 0,
+                                    "label": "51 capacity",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Unknown item #51"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80993778",
+                                    "baseIndex": 0,
+                                    "label": "52 inventory",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "8099377C",
+                                    "baseIndex": 0,
+                                    "label": "52 capacity",
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Unknown item #52"
+                        }
+                    ],
+                    "groupName": "Unknown"
+                }
+            ],
+            "groupName": "Inventory"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 1,
+                    "label": "CPlayer",
+                    "pointerOffsets": [
+                        "2184"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 1,
+                    "label": "80592C78",
+                    "pointerOffsets": [
+                        "2184",
+                        "0"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 1,
+                    "label": "CPlayerMorph",
+                    "pointerOffsets": [
+                        "2184",
+                        "2AC4"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 1,
+                    "label": "CPlayerBomb",
+                    "pointerOffsets": [
+                        "2184",
+                        "3ADC"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "809934B4",
+                    "baseIndex": 1,
+                    "label": "Gun / Inventory",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 1,
+                    "label": "Base Object",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "805C7D80",
+                    "baseIndex": 1,
+                    "label": "IGT base",
+                    "typeIndex": 2,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Pointers"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Jump Presses",
+                    "pointerOffsets": [
+                        "2184",
+                        "2D4"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C7D80",
+                    "baseIndex": 0,
+                    "label": "IGT",
+                    "pointerOffsets": [
+                        "38"
+                    ],
+                    "typeIndex": 4,
+                    "unsigned": false
+                },
+                {
+                    "address": "805C4F98",
+                    "baseIndex": 0,
+                    "label": "Room Number",
+                    "pointerOffsets": [
+                        "2150"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "805F5088",
+                    "baseIndex": 0,
+                    "label": "Input ",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Misc"
+        }
+    ]
+}

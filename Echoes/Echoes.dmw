@@ -1,0 +1,501 @@
+{
+    "watchList": [
+        {
+            "address": "80000000",
+            "baseIndex": 0,
+            "label": "Memory Start hopefully",
+            "length": 6,
+            "typeIndex": 5,
+            "unsigned": true
+        },
+        {
+            "address": "803C5C9C",
+            "baseIndex": 0,
+            "label": "Timer",
+            "pointerOffsets": [
+                "48"
+            ],
+            "typeIndex": 4,
+            "unsigned": false
+        },
+        {
+            "address": "803DCD80",
+            "baseIndex": 0,
+            "label": "Room",
+            "typeIndex": 2,
+            "unsigned": true
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Horizontal Speed",
+                    "pointerOffsets": [
+                        "FCC"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "SpeedZ",
+                    "pointerOffsets": [
+                        "1B0"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Jump State",
+                    "pointerOffsets": [
+                        "2D0"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "SJ Timer",
+                    "pointerOffsets": [
+                        "304"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Charge Beam",
+                    "pointerOffsets": [
+                        "1314",
+                        "48"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Boost Charge",
+                    "pointerOffsets": [
+                        "1174",
+                        "1020"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "TAS HUD"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803CA740",
+                    "baseIndex": 1,
+                    "label": "CPlayer",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Health Current",
+                    "pointerOffsets": [
+                        "1314",
+                        "14"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Health Max",
+                    "pointerOffsets": [
+                        "1314",
+                        "10"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Horizontal Speed",
+                    "pointerOffsets": [
+                        "FCC"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Velocity Magnitude",
+                    "pointerOffsets": [
+                        "F7C"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Jump State",
+                    "pointerOffsets": [
+                        "2D0"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "SJ Timer",
+                    "pointerOffsets": [
+                        "304"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "PosX",
+                            "pointerOffsets": [
+                                "54"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "PosY",
+                            "pointerOffsets": [
+                                "58"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "PosZ",
+                            "pointerOffsets": [
+                                "5C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Position"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "SpeedX",
+                            "pointerOffsets": [
+                                "1A8"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "SpeedY",
+                            "pointerOffsets": [
+                                "1AC"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "SpeedZ",
+                            "pointerOffsets": [
+                                "1B0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "X Rotation",
+                            "pointerOffsets": [
+                                "1B4"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Y Rotation",
+                            "pointerOffsets": [
+                                "1B8"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Z Rotation",
+                            "pointerOffsets": [
+                                "1BC"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Speed"
+                }
+            ],
+            "groupName": "Player"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "CPlayerMorph",
+                    "pointerOffsets": [
+                        "1174"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 1,
+                    "label": "CPlayerBomb",
+                    "pointerOffsets": [
+                        "EBC"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Boost Charge",
+                    "pointerOffsets": [
+                        "1174",
+                        "1020"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Boost Cooldown??",
+                    "pointerOffsets": [
+                        "1174",
+                        "1850"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Bomb Jump Cooldown",
+                    "pointerOffsets": [
+                        "EBC",
+                        "668"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Bomb Count",
+                    "pointerOffsets": [
+                        "EBC",
+                        "788"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Power Bomb Count",
+                    "pointerOffsets": [
+                        "1314",
+                        "260"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Morph State",
+                    "pointerOffsets": [
+                        "38C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Morph Ball"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803CA740",
+                    "baseIndex": 1,
+                    "label": "CPlayerGun",
+                    "pointerOffsets": [
+                        "1314"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Charge Beam",
+                    "pointerOffsets": [
+                        "1314",
+                        "48"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Missiles",
+                    "pointerOffsets": [
+                        "1314",
+                        "26C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Dark Ammo",
+                    "pointerOffsets": [
+                        "1314",
+                        "278"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 0,
+                    "label": "Light Ammo",
+                    "pointerOffsets": [
+                        "1314",
+                        "284"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Arm Cannon"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803CA740",
+                    "baseIndex": 1,
+                    "label": "CPlayer",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 1,
+                    "label": "CPlayerGun",
+                    "pointerOffsets": [
+                        "1314"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 1,
+                    "label": "CPlayerMorph",
+                    "pointerOffsets": [
+                        "1174"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 1,
+                    "label": "CPlayerBomb",
+                    "pointerOffsets": [
+                        "EBC"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C5C9C",
+                    "baseIndex": 1,
+                    "label": "CGameState",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Pointers"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "8072E8CC",
+                    "baseIndex": 0,
+                    "label": "Normal ground speed cap",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "8072E8D0",
+                    "baseIndex": 0,
+                    "label": "Normal air speed cap",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A9FB4",
+                    "baseIndex": 0,
+                    "label": "Lock speedcap",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804318E4",
+                    "baseIndex": 0,
+                    "label": "SA height comparison",
+                    "typeIndex": 3,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Misc"
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "watchList": [
+        {
+            "address": "804D3FE0",
+            "baseIndex": 0,
+            "label": "Speed X",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804D3FE4",
+            "baseIndex": 0,
+            "label": "Speed Y",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804D3FE8",
+            "baseIndex": 0,
+            "label": "Speed Z",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804D3ED8",
+            "baseIndex": 0,
+            "label": "Pos X",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804D3EE8",
+            "baseIndex": 0,
+            "label": "Pos Y",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804D3EF8",
+            "baseIndex": 0,
+            "label": "Pos Z",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804C11DC",
+            "baseIndex": 0,
+            "label": "Charge Time",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804C11A0",
+            "baseIndex": 0,
+            "label": "Bomb Count",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "804C11F8",
+            "baseIndex": 0,
+            "label": "Bomb Timer",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804C35E0",
+            "baseIndex": 0,
+            "label": "Boost Timer",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804D40FC",
+            "baseIndex": 0,
+            "label": "Jump State",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "804D4128",
+            "baseIndex": 0,
+            "label": "SJ Timer",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804BFFA8",
+            "baseIndex": 0,
+            "label": "RNG?",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "804BFF7C",
+            "baseIndex": 0,
+            "label": "Area",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "804BFF54",
+            "baseIndex": 1,
+            "label": "CPlayer",
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "804BFF54",
+            "baseIndex": 0,
+            "label": "Health",
+            "pointerOffsets": [
+                "C"
+            ],
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804BFF54",
+            "baseIndex": 0,
+            "label": "Missiles",
+            "pointerOffsets": [
+                "4C"
+            ],
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "address": "804BFF54",
+            "baseIndex": 0,
+            "label": "Power Bomb",
+            "pointerOffsets": [
+                "64"
+            ],
+            "typeIndex": 2,
+            "unsigned": false
+        }
+    ]
+}

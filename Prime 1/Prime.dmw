@@ -1,0 +1,1313 @@
+{
+    "watchList": [
+        {
+            "address": "80000000",
+            "baseIndex": 0,
+            "label": "Memory Start hopefully",
+            "length": 6,
+            "typeIndex": 5,
+            "unsigned": true
+        },
+        {
+            "address": "804578CC",
+            "baseIndex": 0,
+            "label": "Timer",
+            "pointerOffsets": [
+                "A0"
+            ],
+            "typeIndex": 4,
+            "unsigned": false
+        },
+        {
+            "address": "80458350",
+            "baseIndex": 0,
+            "label": "Room",
+            "pointerOffsets": [
+                "768",
+                "2724"
+            ],
+            "typeIndex": 2,
+            "unsigned": false
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80458350",
+                    "baseIndex": 1,
+                    "label": "CPlayer",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Horizontal Speed",
+                    "pointerOffsets": [
+                        "4FC"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Jump state",
+                    "pointerOffsets": [
+                        "258"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "SJ Timer",
+                    "pointerOffsets": [
+                        "28C"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Charge Beam timer",
+                    "pointerOffsets": [
+                        "490",
+                        "340"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Charge Beam state",
+                    "pointerOffsets": [
+                        "490",
+                        "32C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Boost Charge Timer",
+                    "pointerOffsets": [
+                        "768",
+                        "1DE8"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Bomb Counter",
+                    "pointerOffsets": [
+                        "490",
+                        "308"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Bomb Refill Timer",
+                    "pointerOffsets": [
+                        "490",
+                        "35C"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Fluid Count ",
+                    "length": 1,
+                    "pointerOffsets": [
+                        "E6"
+                    ],
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Fluid Depth",
+                    "pointerOffsets": [
+                        "828"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "TAS HUD"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Health Current",
+                    "pointerOffsets": [
+                        "2AC"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "SJ Timer",
+                    "pointerOffsets": [
+                        "28C"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Jump state",
+                    "pointerOffsets": [
+                        "258"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Fluid Count ",
+                    "length": 1,
+                    "pointerOffsets": [
+                        "E6"
+                    ],
+                    "typeIndex": 6,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Fluid Depth",
+                    "pointerOffsets": [
+                        "828"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Charge Beam state",
+                    "pointerOffsets": [
+                        "490",
+                        "32C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Charge Beam timer",
+                    "pointerOffsets": [
+                        "490",
+                        "340"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "X Coordinate",
+                            "pointerOffsets": [
+                                "40"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Y Coordinate",
+                            "pointerOffsets": [
+                                "50"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Z Coordinate",
+                            "pointerOffsets": [
+                                "60"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Position"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "X Speed",
+                            "pointerOffsets": [
+                                "138"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Y Speed",
+                            "pointerOffsets": [
+                                "13C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Z Speed",
+                            "pointerOffsets": [
+                                "140"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "X Rotation Speed",
+                            "pointerOffsets": [
+                                "144"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Y Rotation Speed",
+                            "pointerOffsets": [
+                                "148"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Z Rotation Speed",
+                            "pointerOffsets": [
+                                "14C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Displacement",
+                            "pointerOffsets": [
+                                "4F8"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Horizontal Displacement",
+                            "pointerOffsets": [
+                                "4FC"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Time Spent Moving",
+                            "pointerOffsets": [
+                                "53C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Speed"
+                }
+            ],
+            "groupName": "Player"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Morph Ball State",
+                    "pointerOffsets": [
+                        "2F8"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Boost Charge Timer",
+                    "pointerOffsets": [
+                        "768",
+                        "1DE8"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Jump state",
+                    "pointerOffsets": [
+                        "258"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Bomb Counter",
+                    "pointerOffsets": [
+                        "490",
+                        "308"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Bomb Refill Timer",
+                    "pointerOffsets": [
+                        "490",
+                        "35C"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Power Bomb Count",
+                    "pointerOffsets": [
+                        "300"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Power Bomb Max",
+                    "pointerOffsets": [
+                        "304"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Morph Ball"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Health",
+                    "pointerOffsets": [
+                        "2AC"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Energy Tank Capacity",
+                    "pointerOffsets": [
+                        "38C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Grapple Beam",
+                    "pointerOffsets": [
+                        "32C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Charge Beam",
+                    "pointerOffsets": [
+                        "318"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Power Beam",
+                    "pointerOffsets": [
+                        "2CC"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Super Missile",
+                    "pointerOffsets": [
+                        "324"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Wave Beam",
+                    "pointerOffsets": [
+                        "2DC"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Wave Buster",
+                    "pointerOffsets": [
+                        "3AC"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Ice Beam",
+                    "pointerOffsets": [
+                        "2D4"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Ice Spreader",
+                    "pointerOffsets": [
+                        "33C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Plasma Beam",
+                    "pointerOffsets": [
+                        "2E4"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Flamethrower",
+                    "pointerOffsets": [
+                        "30C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Missile Inventory",
+                    "pointerOffsets": [
+                        "2E8"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Missile Capacity",
+                    "pointerOffsets": [
+                        "2EC"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Power Bomb Inventory",
+                    "pointerOffsets": [
+                        "300"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Power Bomb Capacity",
+                    "pointerOffsets": [
+                        "304"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Combat Visor",
+                    "pointerOffsets": [
+                        "354"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Scan Visor",
+                    "pointerOffsets": [
+                        "2F4"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "XRay Visor",
+                    "pointerOffsets": [
+                        "334"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Thermal Visor",
+                    "pointerOffsets": [
+                        "314"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Space Jump Boots",
+                    "pointerOffsets": [
+                        "340"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Morph Ball",
+                    "pointerOffsets": [
+                        "34C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Morph Ball Bombs",
+                    "pointerOffsets": [
+                        "2FC"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Boost Ball",
+                    "pointerOffsets": [
+                        "35C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Spider Ball",
+                    "pointerOffsets": [
+                        "364"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Power Suit (0 -- 4)",
+                    "pointerOffsets": [
+                        "36C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Gravity Suit (1 -- 5)",
+                    "pointerOffsets": [
+                        "374"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Varia Suit (2 -- 6)",
+                    "pointerOffsets": [
+                        "37C"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Phazon Suit (3 -- 7)",
+                    "pointerOffsets": [
+                        "384"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Unknown Item 1",
+                    "pointerOffsets": [
+                        "394"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Unknown Item 2",
+                    "pointerOffsets": [
+                        "3A4"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 0,
+                    "label": "Current Suit (normal -- fusion)",
+                    "pointerOffsets": [
+                        "2C0"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "PhazonBeam (F2 -- 70)",
+                    "length": 1,
+                    "pointerOffsets": [
+                        "490",
+                        "835"
+                    ],
+                    "typeIndex": 6,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Inventory"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80458350",
+                    "baseIndex": 1,
+                    "label": "CPlayer",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 1,
+                    "label": "CMorphBall",
+                    "pointerOffsets": [
+                        "768"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 1,
+                    "label": "CPlayerGun",
+                    "pointerOffsets": [
+                        "490"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 1,
+                    "label": "CGameState",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804578CC",
+                    "baseIndex": 1,
+                    "label": "CPlayerState",
+                    "pointerOffsets": [
+                        "98"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804575D8",
+                    "baseIndex": 1,
+                    "label": "CTweakPlayer",
+                    "typeIndex": 2,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Pointers"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "8045B0B4",
+                    "baseIndex": 0,
+                    "label": "Escape timer",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "X Coordinate",
+                            "pointerOffsets": [
+                                "40"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Y Coordinate",
+                            "pointerOffsets": [
+                                "50"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Z Coordinate",
+                            "pointerOffsets": [
+                                "60"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "X Speed",
+                            "pointerOffsets": [
+                                "138"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Y Speed",
+                            "pointerOffsets": [
+                                "13C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Z Speed",
+                            "pointerOffsets": [
+                                "140"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "X Rotation Speed",
+                            "pointerOffsets": [
+                                "144"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Y Rotation Speed",
+                            "pointerOffsets": [
+                                "148"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Z Rotation Speed",
+                            "pointerOffsets": [
+                                "14C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Actual Speed",
+                            "pointerOffsets": [
+                                "4F8"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Horizontal Speed",
+                            "pointerOffsets": [
+                                "4FC"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Time Spent Moving",
+                            "pointerOffsets": [
+                                "53C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Orbit X",
+                            "pointerOffsets": [
+                                "314"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Orbit Y",
+                            "pointerOffsets": [
+                                "318"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Orbit Z",
+                            "pointerOffsets": [
+                                "31C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 1,
+                            "label": "Orbit Next Target ID",
+                            "pointerOffsets": [
+                                "33C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Leave Morph Direction",
+                            "pointerOffsets": [
+                                "518"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Transition Velocity",
+                            "pointerOffsets": [
+                                "58C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Damage AMT",
+                            "pointerOffsets": [
+                                "55C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Damage Vector",
+                            "pointerOffsets": [
+                                "564"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 1,
+                            "label": "Was Damaged",
+                            "pointerOffsets": [
+                                "558"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Morph Time",
+                            "pointerOffsets": [
+                                "574"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Immune Time",
+                            "pointerOffsets": [
+                                "570"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Alpha",
+                            "pointerOffsets": [
+                                "588"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Starting Jump Timeout",
+                            "pointerOffsets": [
+                                "288"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Space Jump Timer",
+                            "pointerOffsets": [
+                                "28C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Min Jump Timeout",
+                            "pointerOffsets": [
+                                "290"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Jump Camera Timer",
+                            "pointerOffsets": [
+                                "294"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Jump Presses ",
+                            "pointerOffsets": [
+                                "298"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Jump state",
+                            "pointerOffsets": [
+                                "258"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Falling Time ",
+                            "pointerOffsets": [
+                                "300"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Cur Acceleration ",
+                            "pointerOffsets": [
+                                "2D0"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Fluid Count ",
+                            "length": 1,
+                            "pointerOffsets": [
+                                "E6"
+                            ],
+                            "typeIndex": 6,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Fluid Depth",
+                            "pointerOffsets": [
+                                "828"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Charge Beam state",
+                            "pointerOffsets": [
+                                "490",
+                                "32C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Charge Beam timer",
+                            "pointerOffsets": [
+                                "490",
+                                "340"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 1,
+                            "label": "Attached Actor",
+                            "pointerOffsets": [
+                                "26C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Attached Actor Time",
+                            "pointerOffsets": [
+                                "270"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "Energy Drain ",
+                            "pointerOffsets": [
+                                "274"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "80458350",
+                            "baseIndex": 0,
+                            "label": "bomb jump state",
+                            "pointerOffsets": [
+                                "768",
+                                "1E3C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "CPlayer Dump"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8045C3A8",
+                            "baseIndex": 0,
+                            "label": "orbitmaxlockon",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804575D8",
+                            "baseIndex": 0,
+                            "label": "orbitmaxdistance x",
+                            "pointerOffsets": [
+                                "170"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804575D8",
+                            "baseIndex": 0,
+                            "label": "orbitmaxdistance y",
+                            "pointerOffsets": [
+                                "174"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804575D8",
+                            "baseIndex": 0,
+                            "label": "orbit max distance z",
+                            "pointerOffsets": [
+                                "178"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804575D8",
+                            "baseIndex": 0,
+                            "label": "orbit normal distance",
+                            "pointerOffsets": [
+                                "164"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "804575D8",
+                            "baseIndex": 0,
+                            "label": "orbit max target distance",
+                            "pointerOffsets": [
+                                "19C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Tweaks"
+                }
+            ],
+            "groupName": "Misc"
+        }
+    ]
+}
