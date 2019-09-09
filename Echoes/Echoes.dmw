@@ -361,65 +361,6 @@
                 {
                     "address": "803CA740",
                     "baseIndex": 1,
-                    "label": "CPlayerGun",
-                    "pointerOffsets": [
-                        "1314"
-                    ],
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "803CA740",
-                    "baseIndex": 0,
-                    "label": "Charge Beam",
-                    "pointerOffsets": [
-                        "1314",
-                        "48"
-                    ],
-                    "typeIndex": 3,
-                    "unsigned": false
-                },
-                {
-                    "address": "803CA740",
-                    "baseIndex": 0,
-                    "label": "Missiles",
-                    "pointerOffsets": [
-                        "1314",
-                        "26C"
-                    ],
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "803CA740",
-                    "baseIndex": 0,
-                    "label": "Dark Ammo",
-                    "pointerOffsets": [
-                        "1314",
-                        "278"
-                    ],
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "803CA740",
-                    "baseIndex": 0,
-                    "label": "Light Ammo",
-                    "pointerOffsets": [
-                        "1314",
-                        "284"
-                    ],
-                    "typeIndex": 2,
-                    "unsigned": false
-                }
-            ],
-            "groupName": "Arm Cannon"
-        },
-        {
-            "groupEntries": [
-                {
-                    "address": "803CA740",
-                    "baseIndex": 1,
                     "label": "CPlayer",
                     "typeIndex": 2,
                     "unsigned": false
@@ -463,6 +404,950 @@
                 }
             ],
             "groupName": "Pointers"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803CA740",
+                    "baseIndex": 1,
+                    "label": "Inventory Object",
+                    "pointerOffsets": [
+                        "1314"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Etanks",
+                            "pointerOffsets": [
+                                "1314",
+                                "258"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Health Current",
+                            "pointerOffsets": [
+                                "1314",
+                                "14"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Health Max",
+                            "pointerOffsets": [
+                                "1314",
+                                "10"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Health"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Charge Beam Timer",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "48"
+                                    ],
+                                    "typeIndex": 3,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Charge Beam",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "168"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Charge"
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Power Beam",
+                            "pointerOffsets": [
+                                "1314",
+                                "60"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Light Beam",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "78"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Light Ammo Inventory",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "288"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Light Ammo",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "284"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Light Beam"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Dark Beam",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "6C"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Dark Ammo",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "278"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Dark Ammo Inventory",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "27C"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Dark Beam"
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Annihilator Beam",
+                            "pointerOffsets": [
+                                "1314",
+                                "84"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Beams"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Missile Capacity",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "270"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Missiles",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "26C"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Missiles"
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Seeker Missiles",
+                            "pointerOffsets": [
+                                "1314",
+                                "198"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Super Missile",
+                            "pointerOffsets": [
+                                "1314",
+                                "90"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Darkburst",
+                            "pointerOffsets": [
+                                "1314",
+                                "9C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Sunburst",
+                            "pointerOffsets": [
+                                "1314",
+                                "A8"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Sonic Boom",
+                            "pointerOffsets": [
+                                "1314",
+                                "B4"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Missiles/Combos"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Combat Visor",
+                            "pointerOffsets": [
+                                "1314",
+                                "C0"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Scan Visor",
+                            "pointerOffsets": [
+                                "1314",
+                                "CC"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Dark Visor",
+                            "pointerOffsets": [
+                                "1314",
+                                "D8"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Echo Visor",
+                            "pointerOffsets": [
+                                "1314",
+                                "E4"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Visor"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Suit Visual (0-2)",
+                            "pointerOffsets": [
+                                "1314",
+                                "54"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Varia Suit (0)",
+                            "pointerOffsets": [
+                                "1314",
+                                "F0"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Dark Suit (1)",
+                            "pointerOffsets": [
+                                "1314",
+                                "FC"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Light Suit (2)",
+                            "pointerOffsets": [
+                                "1314",
+                                "108"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Suits"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Morph Ball ",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "110"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Morph Ball Inventory",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "114"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Morph Ball"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Boost Ball Inventory",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "120"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Boost Ball",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "11C"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Boost Ball"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Spider Ball",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "128"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Spider Ball Inventory",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "12C"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Spider Ball"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Morph Ball Bombs",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "134"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Morph Ball Bombs Inventory",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "138"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Morph Ball Bombs"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Power Bomb Capacity",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "264"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Power Bomb Inventory",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "260"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Power Bombs"
+                        }
+                    ],
+                    "groupName": "Morph"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Space Jump Boots",
+                            "pointerOffsets": [
+                                "1314",
+                                "17C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Gravity Boost",
+                            "pointerOffsets": [
+                                "1314",
+                                "18C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Screw Attack",
+                            "pointerOffsets": [
+                                "1314",
+                                "1A4"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Grapple Beam",
+                            "pointerOffsets": [
+                                "1314",
+                                "174"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Movement"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Sky Temple Key 1 ",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "1BC"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Sky Temple Key 2",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "1C8"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Sky Temple Key 3",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "1D4"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Sky Temple Key 4",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "51C"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Sky Temple Key 5",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "528"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Sky Temple Key 6",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "534"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Sky Temple Key 7",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "540"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Sky Temple Key 8",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "54C"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Sky Temple Key 9",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "558"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Sky Temple Keys"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Agon Temple Key 1",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "1E0"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Agon Temple Key 2",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "1EC"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Agon Temple Key 3",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "1F8"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Agon Temple Keys"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Torvus Temple Key 1",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "204"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Torvus Temple Key 2",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "210"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Torvus Temple Key 3",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "21C"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Torvus Temple Keys"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Ing Hive Temple Key 1",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "228"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Ing Hive Temple Key 2",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "234"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                },
+                                {
+                                    "address": "803CA740",
+                                    "baseIndex": 0,
+                                    "label": "Ing Hive Temple Key 3",
+                                    "pointerOffsets": [
+                                        "1314",
+                                        "240"
+                                    ],
+                                    "typeIndex": 2,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Ing Hive Temple Keys"
+                        }
+                    ],
+                    "groupName": "Keys"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Item %",
+                            "pointerOffsets": [
+                                "1314",
+                                "290"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Energy Transfer Module",
+                            "pointerOffsets": [
+                                "1314",
+                                "564"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Charge Combo",
+                            "pointerOffsets": [
+                                "1314",
+                                "570"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "Misc"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "unknown 1",
+                            "pointerOffsets": [
+                                "1314",
+                                "58"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "unknown 2",
+                            "pointerOffsets": [
+                                "1314",
+                                "144"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "unknown 3",
+                            "pointerOffsets": [
+                                "1314",
+                                "150"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "unknown 4",
+                            "pointerOffsets": [
+                                "1314",
+                                "15C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "unknown 5",
+                            "pointerOffsets": [
+                                "1314",
+                                "1B0"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "unknown 6",
+                            "pointerOffsets": [
+                                "1314",
+                                "24C"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "unknown 7",
+                            "pointerOffsets": [
+                                "1314",
+                                "4F8"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "unknown 8",
+                            "pointerOffsets": [
+                                "1314",
+                                "2AC"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "unknown 9",
+                            "pointerOffsets": [
+                                "1314",
+                                "2B8"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "unknown 10",
+                            "pointerOffsets": [
+                                "1314",
+                                "4F8"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "unknown 11",
+                            "pointerOffsets": [
+                                "1314",
+                                "578"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
+                        }
+                    ],
+                    "groupName": "unknown items"
+                }
+            ],
+            "groupName": "Inventory"
         },
         {
             "groupEntries": [
