@@ -361,55 +361,6 @@
                 {
                     "address": "803CA740",
                     "baseIndex": 1,
-                    "label": "CPlayer",
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "803CA740",
-                    "baseIndex": 1,
-                    "label": "CPlayerGun",
-                    "pointerOffsets": [
-                        "1314"
-                    ],
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "803CA740",
-                    "baseIndex": 1,
-                    "label": "CPlayerMorph",
-                    "pointerOffsets": [
-                        "1174"
-                    ],
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "803CA740",
-                    "baseIndex": 1,
-                    "label": "CPlayerBomb",
-                    "pointerOffsets": [
-                        "EBC"
-                    ],
-                    "typeIndex": 2,
-                    "unsigned": false
-                },
-                {
-                    "address": "803C5C9C",
-                    "baseIndex": 1,
-                    "label": "CGameState",
-                    "typeIndex": 2,
-                    "unsigned": false
-                }
-            ],
-            "groupName": "Pointers"
-        },
-        {
-            "groupEntries": [
-                {
-                    "address": "803CA740",
-                    "baseIndex": 1,
                     "label": "Inventory Object",
                     "pointerOffsets": [
                         "1314"
@@ -1216,6 +1167,17 @@
                             ],
                             "typeIndex": 2,
                             "unsigned": false
+                        },
+                        {
+                            "address": "803CA740",
+                            "baseIndex": 0,
+                            "label": "Cannonball ",
+                            "pointerOffsets": [
+                                "1314",
+                                "4DC"
+                            ],
+                            "typeIndex": 2,
+                            "unsigned": false
                         }
                     ],
                     "groupName": "Misc"
@@ -1348,6 +1310,62 @@
                 }
             ],
             "groupName": "Inventory"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803CA740",
+                    "baseIndex": 1,
+                    "label": "CPlayer",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 1,
+                    "label": "CPlayerGun",
+                    "pointerOffsets": [
+                        "1314"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 1,
+                    "label": "CPlayerMorph",
+                    "pointerOffsets": [
+                        "1174"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803CA740",
+                    "baseIndex": 1,
+                    "label": "CPlayerBomb",
+                    "pointerOffsets": [
+                        "EBC"
+                    ],
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "803C5C9C",
+                    "baseIndex": 1,
+                    "label": "CGameState",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80704C24",
+                    "baseIndex": 0,
+                    "label": "Input",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Pointers"
         },
         {
             "groupEntries": [
