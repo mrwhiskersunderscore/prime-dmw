@@ -429,6 +429,28 @@
                     ],
                     "typeIndex": 2,
                     "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Halfpipe Cooldown",
+                    "pointerOffsets": [
+                        "768",
+                        "1DFC"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80458350",
+                    "baseIndex": 0,
+                    "label": "Halfpipe Recently Touched Cooldown",
+                    "pointerOffsets": [
+                        "768",
+                        "1E04"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
                 }
             ],
             "groupName": "Morph Ball"
